@@ -323,3 +323,56 @@ h1 {
         font-size: 0.9rem !important;
     }
 }
+/* PORTRAIT MODE FIXES */
+@media (max-width: 480px) and (orientation: portrait) {
+
+    /* Tighten header */
+    .navbar {
+        padding: 4px 16px !important;
+    }
+
+    .divider {
+        height: 30px !important;
+        margin: 0 0 10px 0 !important;
+    }
+
+    /* Hero spacing */
+    .hero {
+        padding: 15px 20px 30px 20px !important;
+        gap: 20px !important;
+    }
+
+    /* Image smaller in portrait */
+    .image-box {
+        width: 220px !important;
+        height: 220px !important;
+    }
+
+    /* Heading adjustments */
+    h1 {
+        font-size: 1.9rem !important;
+        line-height: 1.05 !important;
+    }
+
+    .name-blue {
+        font-size: 2.3rem !important;
+        letter-spacing: 1.5px !important;
+        -webkit-text-stroke: 1.2px #000 !important;
+    }
+
+    /* Description width */
+    .hero-text {
+        max-width: 95% !important;
+    }
+
+    /* Button centered */
+    .buttons {
+        justify-content: center !important;
+    }
+
+    /* Stats spacing */
+    .stats {
+        gap: 18px !important;
+        font-size: 0.85rem !important;
+    }
+}
