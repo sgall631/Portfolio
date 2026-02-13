@@ -276,10 +276,10 @@ h1 {
 
 /* MOBILE FIXES */
 @media (max-width: 768px) {
-
-    .navbar {
-        padding: 4px 20px !important;
+    body {
+        background: red !important;
     }
+}
 
     .divider {
         height: 35px !important;
