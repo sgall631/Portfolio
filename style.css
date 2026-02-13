@@ -269,3 +269,65 @@ h1 {
     text-decoration-color: var(--brand-blue);
 }
 
+
+
+
+
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+    /* Make header tighter */
+    .navbar {
+        padding: 4px 20px;
+    }
+
+    .divider {
+        height: 35px;
+        margin: 0 0 15px 0;
+        background-size: auto 100%;
+    }
+
+    /* Stack hero vertically with better spacing */
+    .hero {
+        flex-direction: column;
+        padding: 20px 20px 40px 20px;
+        gap: 25px;
+        text-align: center;
+    }
+
+    /* Reduce image size on mobile */
+    .image-box {
+        width: 260px;
+        height: 260px;
+    }
+
+    /* Adjust heading sizes */
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+
+    .name-blue {
+        font-size: 2.6rem; /* still bigger than the rest */
+        letter-spacing: 2px;
+        -webkit-text-stroke: 1.5px #000; /* slightly thinner for mobile */
+    }
+
+    /* Reduce description width */
+    .hero-text {
+        max-width: 90%;
+    }
+
+    /* Buttons centered */
+    .buttons {
+        justify-content: center;
+    }
+
+    /* Stats stack better */
+    .stats {
+        gap: 25px;
+        font-size: 0.9rem;
+    }
+}
+
