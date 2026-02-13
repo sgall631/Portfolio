@@ -318,4 +318,17 @@ h1 {
         gap: 15px !important;
         font-size: 0.85rem !important;
     }
+
+    /* Stack the cards vertically */
+    .skills-grid {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px !important;
+    }
+
+    /* Make each card full-width but not too wide */
+    .skill-card {
+        width: 90% !important;
+        max-width: 320px !important;
+    }
 }
