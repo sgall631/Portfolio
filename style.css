@@ -270,8 +270,16 @@ h1 {
 }
 
 
+
+
+
+
+
 /* PORTRAIT MODE FIXES — STRONG OVERRIDES */
 @media (max-width: 480px) {
+    body {
+        background: rgb(255, 255, 255) !important;
+    }
 
     .navbar {
         padding: 4px 20px !important;
